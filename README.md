@@ -16,6 +16,12 @@ using the `requests.get(url).json()` function.
 
 ## 2. Retirement Planning
 
-The second tool is a retirement planning tool that will use the Alpaca API to fetch historical closing prices for a retirement portfolio composed of stocks and bonds, then run Monte Carlo simulations to project the portfolio performance at 30 years. I also used the Monte Carlo data to calculate the expected portfolio returns given a specific initial investment amount.
+The second tool is a retirement planning tool that will use the Alpaca API to fetch historical closing prices for a retirement portfolio composed of stocks and bonds, then run Monte Carlo simulations to project the portfolio performance at 30 years. I also used the Monte Carlo data to calculate the expected portfolio returns given a specific initial investment amount. For example, for an initial investment of $20000 in the portfolio that contains 40% `AGG` and 60% `SPY`, we can run a Monte Carlo simulation to forecast 30 years cumulative returns. With 500 simulations, this figure shows the cumulative portfolio return trajectories over the next 30 years:
+![](./mc_30yrs_simulation.png)
+
+This figure shows the distribution of final cumulative returns:
+![](./mc_30yrs_distribution.png)
+
+There is a 95% chance that an initial investment of $20000 in the portfolio over the next 30 years will end within in the range of $26078 and $393262.
 
 The results are summarized in this [notebook](financial-planner.ipynb).
