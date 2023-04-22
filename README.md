@@ -24,4 +24,9 @@ This figure shows the distribution of final cumulative returns:
 
 There is a 95% chance that an initial investment of $20000 in the portfolio over the next 30 years will end within in the range of $26078 and $393262.
 
-The results are summarized in this [notebook](financial-planner.ipynb).
+We studied different portfolio with different initial investments and number of years and the returns are illustrated in the following figure:
+![](./returns.png)
+
+It can be seen that with more initial investment, one can expect a higher gain. It is also very important to wait sufficient time to achieve maximum returns. 
+
+The code for this study is implemented in this [notebook](financial-planner.ipynb).
