@@ -22,7 +22,7 @@ The second tool is a retirement planning tool that will use the Alpaca API to fe
 This figure shows the distribution of final cumulative returns:
 ![](./mc_30yrs_distribution.png)
 
-There is a 95% chance that an initial investment of $20000 in the portfolio over the next 30 years will end within in the range of $26078 and $393262.
+There is a 95% chance that an initial investment of $20000 in the portfolio over the next 30 years will end within in the range of $24481 and $340842.
 
 We studied different portfolio with different initial investments and number of years and the returns are illustrated in the following figure:
 ![](./returns.png)
